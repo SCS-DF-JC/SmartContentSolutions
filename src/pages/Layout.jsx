@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { createPageUrl } from "./utils";
+import { createPageUrl } from "../utils";
 import { Menu, X, Sparkles, User } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { SoundProvider, SoundToggle, useSounds } from "./components/shared/SoundEffects";
